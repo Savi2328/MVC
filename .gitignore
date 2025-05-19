@@ -34,3 +34,54 @@ media/
 */migrations/*.pyd
 */migrations/*.sqlite3
 */migrations/*.log
+
+# ---- Systemowe ----
+.DS_Store
+Thumbs.db
+
+# ---- Python / Django ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+db.sqlite3
+*.log
+*.pot
+*.pyc
+venv/
+.venv/
+staticfiles/
+media/
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.sqlite3
+*/migrations/*.log
+
+# ---- IDE ----
+.vscode/
+.idea/
+
+# ---- .NET / C# ----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.pdb
+*.cache
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+
+# ---- inne ----
+*.swp
+*.~*
